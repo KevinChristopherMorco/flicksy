@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #ad0ff3;
+  --secondary-color: #000;
+}
+
+@layer base {
+  html,
+  body {
+    @apply h-screen;
+  }
+
+  #root {
+    @apply flex min-h-full flex-col overflow-x-hidden bg-[--secondary-color] text-white;
+  }
+}

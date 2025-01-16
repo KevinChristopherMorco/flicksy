@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Barbie",
+    "release_date": "2023-07-21",
+    "genre": "Comedy, Fantasy",
+    "director": "Greta Gerwig",
+    "cast": ["Margot Robbie", "Ryan Gosling", "Will Ferrell"],
+    "box_office": "$1.4B",
+    "poster_path": "https://image.tmdb.org/t/p/original/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/iGdHtZBjpBkmSAgkvUeniIfI8ME.jpg"
+  },
+  {
+    "title": "Oppenheimer",
+    "release_date": "2023-07-21",
+    "genre": "Biography, Drama, History",
+    "director": "Christopher Nolan",
+    "cast": ["Cillian Murphy", "Emily Blunt", "Robert Downey Jr."],
+    "box_office": "$900M",
+    "poster_path": "https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/nb3xI8XI3w4pMVZ38VijbsyBqP4.jpg"
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "release_date": "2023-05-05",
+    "genre": "Action, Adventure, Comedy",
+    "director": "James Gunn",
+    "cast": ["Chris Pratt", "Zoe Saldana", "Bradley Cooper"],
+    "box_office": "$845M",
+    "poster_path": "https://image.tmdb.org/t/p/original/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg"
+  },
+  {
+    "title": "The Super Mario Bros. Movie",
+    "release_date": "2023-04-07",
+    "genre": "Animation, Adventure, Comedy",
+    "director": "Aaron Horvath, Michael Jelenic",
+    "cast": ["Chris Pratt", "Anya Taylor-Joy", "Jack Black"],
+    "box_office": "$1.36B",
+    "poster_path": "https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/cFBreBMAuE578QOFwSGHQpnH9En.jpg"
+  },
+  {
+    "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+    "release_date": "2023-11-17",
+    "genre": "Action, Adventure, Science Fiction",
+    "director": "Francis Lawrence",
+    "cast": ["Rachel Zegler", "Tom Blyth", "Hunter Schafer"],
+    "box_office": "$300M",
+    "poster_path": "https://image.tmdb.org/t/p/original/lrkOYL5GBTFW9cgs9RlojxAcZZF.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/8GnWDLn2AhnmkQ7hlQ9NJUYobSS.jpg"
+  },
+  {
+    "title": "Mission: Impossible – Dead Reckoning Part One",
+    "release_date": "2023-07-12",
+    "genre": "Action, Adventure, Thriller",
+    "director": "Christopher McQuarrie",
+    "cast": ["Tom Cruise", "Hayley Atwell", "Simon Pegg"],
+    "box_office": "$600M",
+    "poster_path": "https://image.tmdb.org/t/p/original/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/bYJv39whWTAOWO0mv7oUija8GgM.jpg"
+  },
+  {
+    "title": "Aquaman and the Lost Kingdom",
+    "release_date": "2023-12-20",
+    "genre": "Action, Adventure, Fantasy",
+    "director": "James Wan",
+    "cast": ["Jason Momoa", "Amber Heard", "Patrick Wilson"],
+    "box_office": "$350M",
+    "poster_path": "https://image.tmdb.org/t/p/original/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/7S0bXv3BqCuPfImKRf5kkmBVYZR.jpg"
+  },
+  {
+    "title": "The Little Mermaid",
+    "release_date": "2023-05-26",
+    "genre": "Adventure, Drama, Family",
+    "director": "Rob Marshall",
+    "cast": ["Halle Bailey", "Melissa McCarthy", "Jonah Hauer-King"],
+    "box_office": "$600M",
+    "poster_path": "https://image.tmdb.org/t/p/original/cJbKUdbWcIFDuHhs6uvOfacemc4.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/pbMbDlOAkVuvnxovBA2ENin59xH.jpg"
+  },
+  {
+    "title": "John Wick: Chapter 4",
+    "release_date": "2023-03-24",
+    "genre": "Action, Crime, Thriller",
+    "director": "Chad Stahelski",
+    "cast": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård"],
+    "box_office": "$430M",
+    "poster_path": "https://image.tmdb.org/t/p/original/uzHPb0rITwa44KkhX5Z27cXwmL1.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/7I6VUdPj6tQECNHdviJkUHD2u89.jpg"
+  },
+  {
+    "title": "Fast X",
+    "release_date": "2023-05-19",
+    "genre": "Action, Crime, Thriller",
+    "director": "Louis Leterrier",
+    "cast": ["Vin Diesel", "Jason Momoa", "Michelle Rodriguez"],
+    "box_office": "$800M",
+    "poster_path": "https://image.tmdb.org/t/p/original/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg"
+  }
+]
