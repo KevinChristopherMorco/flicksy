@@ -1,15 +1,14 @@
 import React from "react";
 
-const FormButton = ({ text, icon, hasIcon }) => {
+const FormButton = ({ text, icon, hasIcon, dynamicClass }) => {
   return (
-    <div className="flex w-fit items-center rounded-md bg-[--primary-color] px-5 py-3">
-      <input
-        type="submit"
-        value={text}
-        className="bg-[--primary-color] text-lg font-bold"
-      />
+    <button
+      type="submit"
+      className={`${dynamicClass} group flex w-fit cursor-pointer items-center justify-center rounded-md bg-[--primary-color] px-5 py-3 font-bold transition-colors hover:bg-[--primary-color-hover]`}
+    >
+      {text}
       {hasIcon && icon}
-    </div>
+    </button>
   );
 };
 

@@ -12,6 +12,9 @@
 :root {
   --primary-color: #ad0ff3;
   --secondary-color: #000;
+  --primary-color-hover: #9b2dca;
+  --secondary-color-hover: #202020;
+  /* #bf38f8 */
 }
 
 @layer base {
