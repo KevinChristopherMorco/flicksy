@@ -7,12 +7,15 @@ import useToggleSelect from "../../hooks/inputs/useToggleSelect";
 import useScroll from "../../hooks/useScroll";
 
 import { Link } from "react-router-dom";
+import { useTranslateContext } from "../../hooks/TranslationProvider";
 
 const Navbar = () => {
+  const { t, languageChoice, setLanguageChoice } = useTranslateContext();
   const { isLargeScreen } = useScreenResponsiveness();
   const { selectState, setSelectState } = useToggleSelect();
   const { isSelectOpen } = selectState;
   const { isScrolled } = useScroll();
+  console.log(languageChoice);
   return (
     <nav
       className={`${isScrolled ? "bg-black bg-opacity-90 transition-colors duration-300 ease-in-out" : "bg-transparent transition-colors duration-300 ease-in-out"} fixed z-[999] flex w-full items-center justify-between p-[1.5rem] lg:px-[5rem] 2xl:px-[15rem]`}
@@ -25,26 +28,38 @@ const Navbar = () => {
             onClick={() => setSelectState({ isSelectOpen: !isSelectOpen })}
           >
             <RiTranslate2 className="h-4 w-4 text-white" />
-            {isLargeScreen && <p className="text-sm">English</p>}
+            {isLargeScreen && (
+              <p className="text-sm">
+                {languageChoice === "en" ? "English" : "Español"}
+              </p>
+            )}
             <RiArrowDownSFill className="h-4 w-4" />
           </button>
-          {/* {isSelectOpen && (
+          {isSelectOpen && (
             <div className="absolute flex w-[30vw] flex-col gap-1 bg-white text-center text-black md:w-full">
-              {["English", "Español"].map((language, index) => {
+              {[
+                { text: "English", short: "en" },
+                { text: "Español", short: "es" },
+              ].map((language, index) => {
+                const { text, short } = language;
                 return (
-                  <p className="cursor-pointer hover:bg-[--primary-color] hover:text-white">
-                    {language}
+                  <p
+                    onClick={() => setLanguageChoice(short)}
+                    key={index}
+                    className="cursor-pointer hover:bg-[--primary-color] hover:text-white"
+                  >
+                    {text}
                   </p>
                 );
               })}
             </div>
-          )} */}
+          )}
         </div>
         <Link
           to={"sign-in"}
           className="rounded-sm bg-[--primary-color] px-4 py-[.35rem] text-sm font-medium transition-colors hover:bg-[--primary-color-hover] lg:px-5 lg:py-2"
         >
-          Sign In
+          {t("Sign In")}
         </Link>
       </div>
     </nav>

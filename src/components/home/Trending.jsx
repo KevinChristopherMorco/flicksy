@@ -8,6 +8,7 @@ import SectionHeading from "../headings/SectionHeading";
 import movieData from "../../json/SampleTrending.json";
 import Select from "../inputs/Select";
 import useToggleSelect from "../../hooks/inputs/useToggleSelect";
+import { useTranslateContext } from "../../hooks/TranslationProvider";
 
 const selectOptions = [
   {
@@ -23,6 +24,7 @@ const selectOptions = [
 ];
 
 const Trending = ({ setModalState }) => {
+  const { t } = useTranslateContext();
   const { selectState, setSelectState } = useToggleSelect();
   const { selectIndex } = selectState;
   const [selectChoice, setSelectChoice] = useState({
@@ -40,7 +42,7 @@ const Trending = ({ setModalState }) => {
 
   return (
     <SectionContainer>
-      <SectionHeading title={"Trending Now"} />
+      <SectionHeading title={t("Trending Now")} />
       <div className="flex flex-col gap-5 lg:flex-row">
         {selectOptions.map((select, index) => {
           const { id, options, dynamicClass } = select;

@@ -1,5 +1,6 @@
 import { RiArrowDownSFill } from "@remixicon/react";
 import React, { useState } from "react";
+import { useTranslateContext } from "../../hooks/TranslationProvider";
 
 const Select = ({
   id,
@@ -10,6 +11,7 @@ const Select = ({
   setSelectState,
   isSelectOpen,
 }) => {
+  const { t } = useTranslateContext();
   return (
     <div className={`${dynamicClass} relative`}>
       <button
@@ -18,8 +20,10 @@ const Select = ({
       >
         <div>
           <p>
-            {selectChoice[id].charAt(0).toUpperCase() +
-              selectChoice[id].slice(1)}
+            {t(
+              selectChoice[id].charAt(0).toUpperCase() +
+                selectChoice[id].slice(1),
+            )}
           </p>
         </div>
         <RiArrowDownSFill />
@@ -38,7 +42,7 @@ const Select = ({
                 key={index}
                 className="cursor-pointer px-4 hover:bg-[--primary-color] hover:text-white"
               >
-                {option.charAt(0).toUpperCase() + option.slice(1)}
+                {t(option.charAt(0).toUpperCase() + option.slice(1))}
               </p>
             );
           })}

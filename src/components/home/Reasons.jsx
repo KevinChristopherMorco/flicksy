@@ -8,6 +8,7 @@ import computer from "../../assets/images/reasons/computer.png";
 import ad from "../../assets/images/reasons/ads.png";
 import download from "../../assets/images/reasons/download.png";
 import video from "../../assets/images/reasons/video.png";
+import { useTranslateContext } from "../../hooks/TranslationProvider";
 
 const ReasonCard = ({ title, description, icon }) => {
   return (
@@ -15,7 +16,7 @@ const ReasonCard = ({ title, description, icon }) => {
       <div className="flex flex-col gap-4">
         <p className="text-lg font-bold xl:text-xl 2xl:text-2xl">{title}</p>
 
-        <p className="text-2xl:text-lg">{description}</p>
+        <p className="text-2xl:text-lg">{description}.</p>
       </div>
       <img
         src={icon}
@@ -27,37 +28,38 @@ const ReasonCard = ({ title, description, icon }) => {
 };
 
 const Reasons = () => {
+  const { t } = useTranslateContext();
   return (
     <SectionContainer>
-      <SectionHeading title={"More Reasons to Join"} />
+      <SectionHeading title={t("More Reasons to Join")} />
       <GenericContainer>
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           <ReasonCard
-            title={"Stream on Any Device, Anytime"}
-            description={
-              "Access your account and stream content across multiple devices."
-            }
+            title={t("Stream on Any Device, Anytime")}
+            description={t(
+              "Access your account and stream content across multiple devices",
+            )}
             icon={computer}
           />
           <ReasonCard
-            title={"Enjoy Uninterrupted Viewing"}
-            description={
-              "Say goodbye to ads! Enjoy an ad-free streaming experience so you can watch your favorite content without any interruptions."
-            }
+            title={t("Enjoy Uninterrupted Viewing")}
+            description={t(
+              "Say goodbye to ads! Enjoy an ad-free streaming experience so you can watch your favorite content without any interruptions",
+            )}
             icon={ad}
           />
           <ReasonCard
-            title={"Take Your Shows Anywhere"}
-            description={
-              "Download your favorite movies and TV shows to enjoy offline, so you never miss out on entertainment."
-            }
+            title={t("Take Your Shows Anywhere")}
+            description={t(
+              "Download your favorite movies and TV shows to enjoy offline, so you never miss out on entertainment",
+            )}
             icon={download}
           />
           <ReasonCard
-            title={"Enjoy Crystal Clear Streaming"}
-            description={
-              "Experience seamless viewing with high-quality video and audio on any device, from your phone to your TV."
-            }
+            title={t("Enjoy Crystal Clear Streaming")}
+            description={t(
+              "Experience seamless viewing with high-quality video and audio on any device, from your phone to your TV.",
+            )}
             icon={video}
           />
         </div>

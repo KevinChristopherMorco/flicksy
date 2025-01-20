@@ -1,22 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslateContext } from "../../hooks/TranslationProvider";
 
 const FooterList = ({ linkname }) => {
+  const { t } = useTranslateContext();
+
   return (
     <Link
       to={"page-list"}
       className="cursor-pointer font-medium text-gray-400 underline"
     >
-      <p className="2xl:text-lg">{linkname}</p>
+      <p className="2xl:text-lg">{t(linkname)}</p>
     </Link>
   );
 };
 
 const Footer = () => {
+  const { t } = useTranslateContext();
+
   return (
     <footer className="grid gap-14 p-[1.5rem] py-20 lg:px-[5rem] 2xl:px-[15rem]">
       <div>
-        <FooterList linkname={"Questions? Contact Us."} />
+        <FooterList linkname={t("Questions? Contact Us")} />
       </div>
       <div className="grid gap-1 lg:grid-cols-4 lg:gap-x-10">
         {[

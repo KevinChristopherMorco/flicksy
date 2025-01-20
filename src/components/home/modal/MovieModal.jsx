@@ -8,6 +8,7 @@ import {
 import React from "react";
 import OutlineButton from "../../buttons/OutlineButton";
 import PrimaryButton from "../../buttons/PrimaryButton";
+import { useTranslateContext } from "../../../hooks/TranslationProvider";
 
 const Tag = ({ text, icon, hasIcon }) => {
   return (
@@ -19,6 +20,7 @@ const Tag = ({ text, icon, hasIcon }) => {
 };
 
 const MovieModal = ({ modalState, setModalState }) => {
+  const { t } = useTranslateContext();
   const {
     modalData: {
       title,
@@ -84,14 +86,14 @@ const MovieModal = ({ modalState, setModalState }) => {
         </div>
         <div className="absolute bottom-0 flex w-full items-center justify-between px-3 py-5 md:justify-start md:gap-5 md:px-10">
           <PrimaryButton
-            text={"Watch Trailer"}
+            text={t("Watch Trailer")}
             dynamicClass={"w-[60%] md:w-[45%] xl:w-[40%]"}
             icon={<RiPlayFill className="h-6 w-6" />}
             linkname={"movie-trailer"}
             hasIcon={true}
           />
           <OutlineButton
-            text={"Details"}
+            text={t("Details")}
             dynamicClass={"md:w-[30%] xl:w-[25%]"}
             icon={<RiErrorWarningFill className="h-6 w-6" />}
             linkname={"movie-page"}
