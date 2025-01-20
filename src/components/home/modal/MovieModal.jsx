@@ -48,7 +48,7 @@ const MovieModal = ({ modalState, setModalState }) => {
           </p>
           <div className="absolute inset-0 bg-black bg-opacity-5" />
           <div className="absolute bottom-0 h-[40%] w-full bg-gradient-to-t from-[#161616] lg:h-[70%]" />
-          <p className="absolute -bottom-4 px-3 text-5xl font-bold md:px-10">
+          <p className="absolute -bottom-4 line-clamp-3 px-3 text-5xl font-bold md:px-10 lg:line-clamp-none">
             {title || name}
           </p>
         </div>

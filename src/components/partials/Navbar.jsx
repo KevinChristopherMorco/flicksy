@@ -28,7 +28,7 @@ const Navbar = () => {
             {isLargeScreen && <p className="text-sm">English</p>}
             <RiArrowDownSFill className="h-4 w-4" />
           </button>
-          {isSelectOpen && (
+          {/* {isSelectOpen && (
             <div className="absolute flex w-[30vw] flex-col gap-1 bg-white text-center text-black md:w-full">
               {["English", "Español"].map((language, index) => {
                 return (
@@ -38,7 +38,7 @@ const Navbar = () => {
                 );
               })}
             </div>
-          )}
+          )} */}
         </div>
         <Link
           to={"sign-in"}

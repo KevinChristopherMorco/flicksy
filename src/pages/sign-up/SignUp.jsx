@@ -22,15 +22,16 @@ const SignUp = () => {
     );
   };
   return (
-    <div className="flex flex-col gap-10 py-[3%] md:gap-20">
+    <div className="relative grid h-full grid-rows-[0.5fr_10fr] gap-10 py-[3%] md:gap-20">
+      <div className="absolute h-[450px] w-full bg-[url(assets/images/hero-bg.png)] bg-cover bg-bottom bg-no-repeat xl:h-[550px]" />{" "}
       <Link
         to={"/"}
-        className="flex w-[95%] cursor-pointer items-center gap-1 self-center"
+        className="z-[99] flex w-[95%] cursor-pointer items-center gap-1 place-self-start px-3"
       >
         <RiArrowLeftLine />
       </Link>
-      <div className="flex flex-col items-center">
-        <div className="flex w-[90%] flex-col items-center gap-10 rounded-md border border-gray-300 p-6 md:w-[50%] md:p-10 lg:w-[40%] xl:w-[30%] xl:p-10 2xl:w-[20%]">
+      <div className="z-[99] flex flex-col items-center">
+        <div className="flex w-[90%] flex-col items-center gap-10 rounded-md border border-gray-300 bg-[--secondary-color] p-6 md:w-[50%] md:p-10 lg:w-[40%] lg:p-10 xl:w-[30%] xl:p-10 2xl:w-[23%]">
           <div className="flex flex-col gap-2 text-center">
             <h4 className="text-3xl font-bold">Create an account</h4>
             <div className="flex items-center justify-center gap-1 text-sm">

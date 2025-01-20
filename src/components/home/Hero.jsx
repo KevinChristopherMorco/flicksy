@@ -1,7 +1,4 @@
-import { RiArrowRightSLine } from "@remixicon/react";
 import React from "react";
-import FormButton from "../buttons/FormButton";
-import Input from "../inputs/Input";
 import EmailForm from "../global/EmailForm";
 
 const Hero = () => {

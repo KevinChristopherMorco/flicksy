@@ -202,6 +202,7 @@
   {
     "adult": false,
     "genre_ids": [878, 12, 28],
+    "genre": ["Adventure", "Action"],
     "id": 76600,
     "original_language": "en",
     "original_title": "Avatar: The Way of Water",
@@ -221,6 +222,7 @@
   {
     "adult": false,
     "genre_ids": [27, 80, 53],
+    "genre": ["Horror", "Thriller"],
     "id": 934433,
     "original_language": "en",
     "original_title": "Scream VI",
@@ -255,7 +257,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/87mebbBtoWzHV0kILgV6M7yIfun.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Action & Adventure", "Mystery", "Drama"]
   },
   {
     "adult": false,
@@ -274,7 +277,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/gc8PfyTqzqltKPW3X0cIVUGmagz.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Drama", "Crime"]
   },
   {
     "adult": false,
@@ -293,7 +297,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/2MaumbgBlW1NoPo3ZJO38A6v7OS.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Drama", "Science Fiction", "Mystery", "Action & Adventure"]
   },
   {
     "adult": false,
@@ -312,9 +317,9 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Science Fiction", "Drama", "Action & Adventure"]
   },
-
   {
     "adult": false,
     "genre_ids": [10765, 10759, 18],
@@ -332,7 +337,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/9zcbqSxdsRMZWHYtyCd1nXPr2xq.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Science Fiction", "Drama", "Action & Adventure"]
   },
   {
     "adult": false,
@@ -351,7 +357,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/dQOphbONxlpPsKo30araFr0CYMO.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Science Fiction", "Drama", "Action & Adventure"]
   },
   {
     "adult": false,
@@ -370,7 +377,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/aWnEtYJn31swY2pC8cOtje98bYc.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Drama"]
   },
   {
     "adult": false,
@@ -389,7 +397,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/38aCLy0BdFbOAIEfuDladoITHN0.jpg",
     "type": "tv",
     "isLocalTrending": false,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Drama", "Science Fiction", "Mystery"]
   },
   {
     "adult": false,
@@ -408,7 +417,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/jgb9xICHFX8wTGQ75js4uNbttQs.jpg",
     "type": "tv",
     "isLocalTrending": false,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Drama", "Science Fiction", "Action & Adventure"]
   },
   {
     "adult": false,
@@ -427,7 +437,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/rAOjnEFTuNysY7bot8zonhImGMh.jpg",
     "type": "tv",
     "isLocalTrending": false,
-    "isGlobalTrending": true
+    "isGlobalTrending": true,
+    "genre": ["Drama", "Horror", "Science Fiction"]
   },
   {
     "adult": false,
@@ -446,7 +457,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/20eIP9o5ebArmu2HxJutaBjhLf4.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": false
+    "isGlobalTrending": false,
+    "genre": ["Drama"]
   },
   {
     "adult": false,
@@ -465,7 +477,8 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/oggnxmvofLtGQvXsO9bAFyCj3p6.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": false
+    "isGlobalTrending": false,
+    "genre": ["Crime", "Drama"]
   },
   {
     "adult": false,
@@ -484,6 +497,7 @@
     "backdrop_path": "https://image.tmdb.org/t/p/original/pxeqQX4qFQ0cVxPt5SWZENV5BH3.jpg",
     "type": "tv",
     "isLocalTrending": true,
-    "isGlobalTrending": false
+    "isGlobalTrending": false,
+    "genre": ["Animation", "Family", "Comedy"]
   }
 ]

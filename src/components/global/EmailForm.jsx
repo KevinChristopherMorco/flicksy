@@ -14,7 +14,7 @@ const EmailForm = ({ isCenter }) => {
       <div className="w-full">
         <form
           action=""
-          className={`${isCenter ? "items-center" : ""} flex flex-col gap-4 lg:flex-row`}
+          className={`${isCenter ? "items-center" : ""} flex flex-col justify-center gap-4 lg:flex-row`}
         >
           <Input
             type={"email"}

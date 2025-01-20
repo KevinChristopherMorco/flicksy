@@ -76,7 +76,7 @@ const FAQ = () => {
             );
           })}
         </div>
-        <div className="w-full lg:flex lg:flex-col lg:items-center">
+        <div className="w-full py-6 lg:flex lg:flex-col lg:items-center">
           <EmailForm />
         </div>
       </GenericContainer>
