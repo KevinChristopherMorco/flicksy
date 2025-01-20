@@ -4,10 +4,10 @@ import GenericContainer from "../containers/GenericContainer";
 
 import SectionHeading from "../headings/SectionHeading";
 
-import computer from "../../assets/images/reasons/computer.png";
-import ad from "../../assets/images/reasons/ads.png";
-import download from "../../assets/images/reasons/download.png";
-import video from "../../assets/images/reasons/video.png";
+import computer from "/assets/images/reasons/computer.png";
+import ad from "/assets/images/reasons/ads.png";
+import download from "/assets/images/reasons/download.png";
+import video from "/assets/images/reasons/video.png";
 import { useTranslateContext } from "../../hooks/TranslationProvider";
 
 const ReasonCard = ({ title, description, icon }) => {

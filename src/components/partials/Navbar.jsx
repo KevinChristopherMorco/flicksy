@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "/src/assets/images/logo/flicksy-logo.png";
+import logo from "/assets/images/logo/Flicksy-logo.png";
 import { RiArrowDownSFill, RiTranslate2 } from "@remixicon/react";
 import useScreenResponsiveness from "../../hooks/useScreenResponsiveness";
 import useToggleSelect from "../../hooks/inputs/useToggleSelect";
