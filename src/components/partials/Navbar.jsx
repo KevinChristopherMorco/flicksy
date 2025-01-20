@@ -15,7 +15,7 @@ const Navbar = () => {
   const { selectState, setSelectState } = useToggleSelect();
   const { isSelectOpen } = selectState;
   const { isScrolled } = useScroll();
-  console.log(languageChoice);
+  
   return (
     <nav
       className={`${isScrolled ? "bg-black bg-opacity-90 transition-colors duration-300 ease-in-out" : "bg-transparent transition-colors duration-300 ease-in-out"} fixed z-[999] flex w-full items-center justify-between p-[1.5rem] lg:px-[5rem] 2xl:px-[15rem]`}

@@ -5,10 +5,13 @@ const TranslateContext = createContext();
 
 const TranslationProvider = ({ children }) => {
   const { t, i18n } = useTranslation();
-  const [languageChoice, setLanguageChoice] = useState("en");
+  const [languageChoice, setLanguageChoice] = useState(
+    localStorage.getItem("languageChoice") || "en",
+  );
 
   useEffect(() => {
     i18n.changeLanguage(languageChoice);
+    localStorage.setItem("languageChoice", languageChoice);
   }, [languageChoice]);
 
   return (
