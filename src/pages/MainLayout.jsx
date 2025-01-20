@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import Navbar from "../components/partials/navbar";
+import Navbar from "../components/partials/Navbar";
 import Footer from "../components/partials/Footer";
 import { useTranslateContext } from "../hooks/TranslationProvider";
 
