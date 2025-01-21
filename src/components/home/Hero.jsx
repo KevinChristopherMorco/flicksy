@@ -8,7 +8,7 @@ const Hero = () => {
 
   return (
     <section className="grid h-[550px] xl:h-[700px]">
-      <div className="grid h-full auto-rows-min justify-items-center gap-5 bg-[url(assets/images/hero-bg.png)] bg-cover bg-center bg-no-repeat pt-36 xl:gap-10 xl:bg-bottom xl:pt-32">
+      <div className="grid h-full auto-rows-min justify-items-center gap-5 bg-[url(/assets/images/hero-bg.png)] bg-cover bg-center bg-no-repeat pt-36 xl:gap-10 xl:bg-bottom xl:pt-32">
         <div className="flex h-fit flex-col items-center gap-1 px-5 text-center xl:gap-4">
           <h4 className="text-3xl font-black lg:text-4xl xl:w-[50%] xl:text-6xl xl:leading-tight">
             {t("Unlimited movies, TV shows, and more")}

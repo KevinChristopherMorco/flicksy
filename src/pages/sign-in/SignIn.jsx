@@ -31,7 +31,7 @@ const SignIn = () => {
 
   return (
     <div className="relative grid h-full grid-rows-[0.5fr_10fr] gap-10 py-[3%] md:gap-20">
-      <div className="absolute h-[450px] w-full bg-[url(assets/images/hero-bg.png)] bg-cover bg-bottom bg-no-repeat xl:h-[550px]" />
+      <div className="absolute h-[450px] w-full bg-[url(/assets/images/hero-bg.png)] bg-cover bg-bottom bg-no-repeat xl:h-[550px]" />
       <Link
         to={"/"}
         className="z-[99] flex w-[95%] cursor-pointer items-center gap-1 place-self-start px-3 transition-colors hover:text-gray-300"
